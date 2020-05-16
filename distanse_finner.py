@@ -175,7 +175,7 @@ def hent_uniform_data(data, tid_mellom_målinger_s=5):
     avstander_km = hent_forflyttningsdata(data)
     
     interpolant = interp1d(tidspunkt_s, avstander_km)
-    tidspunkt_uniform = arange(0, tidspunkt_s[-1], dt_s)
+    tidspunkt_uniform = arange(0, tidspunkt_s[-1], tid_mellom_målinger_s)
     
     return tidspunkt_uniform, interpolant(tidspunkt_uniform)
 
