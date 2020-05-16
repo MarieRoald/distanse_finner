@@ -17,13 +17,13 @@ eller
 
 .. code:: python
 
-    from distanse_finner import last_uniform_data``
+    from distanse_finner import last_uniform_data
 
 Deretter kan du bruke denne kommandoen:
 
 .. code:: python
 
-    tidspunkt, avstander = last_rådata(datafil)``
+    tidspunkt, avstander = last_rådata(datafil)
 
 for å hente ut avstandsdata og tidspunktene de dataene er hentet på.
 Dessverre klarer ikke GPSLogger appen å måle posisjonen med like lang
