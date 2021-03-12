@@ -2,12 +2,14 @@ Finne avstander fra GPS posisjonsdata
 =====================================
 
 Dette er et lite bibliotek for å hente ut hvor langt man har bevegd
-seg basert på CSV filene laget av appen GPSLogger for Android. Det
-er en gratis app med åpen kildekode som lar deg logge GPS spor uten
-at denne informasjonen deles med andre. Du kan laste ned appen her: 
+seg basert på GPX-filer fra en hvilken som helst GPS-logger, eller
+CSV-filene laget med open-source appen GPSLogger for Android. 
+Sistnevnte er en gratis app med åpen kildekode som lar deg logge GPS
+spor uten at denne informasjonen deles med andre. Dessverre ble den
+fjernet fra Play Store, men du kan finne installasjonsinstrukser på
 https://gpslogger.app/
 
-For å bruke biblioteket starter du scriptet ditt med
+For å bruke dette biblioteket starter du scriptet ditt med
 
 .. code:: python
 
@@ -26,7 +28,7 @@ Deretter kan du bruke denne kommandoen:
     tidspunkt, avstander = last_rådata(datafil)
 
 for å hente ut avstandsdata og tidspunktene de dataene er hentet på.
-Dessverre klarer ikke GPSLogger appen å måle posisjonen med like lang
+Dessverre klarer ikke GPS-loggere å måle posisjonen med like lang
 tid mellom hver måling, så for å få uniformt fordelte data 
 (altså data med like lang tid mellom hver måling), kan du bruke funksjonen:
 
