@@ -4,7 +4,7 @@ Finne avstander fra GPS posisjonsdata
 Dette er et lite bibliotek for å hente ut hvor langt man har bevegd
 seg basert på CSV filene laget av appen GPSLogger for Android. Det
 er en gratis app med åpen kildekode som lar deg logge GPS spor uten
-at denne informasjonen deles med andre. Du kanlaste ned appen her: 
+at denne informasjonen deles med andre. Du kan laste ned appen her: 
 https://gpslogger.app/
 
 For å bruke biblioteket starter du scriptet ditt med
